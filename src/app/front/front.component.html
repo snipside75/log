@@ -1,0 +1,12 @@
+<h3>Front</h3>
+<div id="images" class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <ul>
+                <li *ngFor="let image of images">
+                    <img [src]="'http://media.mw.metropolia.fi/wbma/uploads/'+image.filename"  class="img-responsive col-md-4">
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
